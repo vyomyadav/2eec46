@@ -1,4 +1,4 @@
-# Form Prefill UI 📝
+# Avantos Coding Challenge
 
 An interactive UI tool for mapping form prefill sources using a visual React Flow graph, along with dynamic upstream form data selection.
 
@@ -6,7 +6,7 @@ Video Link - https://youtu.be/pbwYUiALMyI
 
 ---
 
-## 📚 Project Structure
+## Project Structure
 
 /src
   /api
@@ -30,7 +30,7 @@ Video Link - https://youtu.be/pbwYUiALMyI
 
 ---
 
-## ✨ Available Scripts
+## Available Scripts
 
 In the project directory, you can run:
 
@@ -53,7 +53,7 @@ All tests for the components and API mocks are handled through [Jest](https://je
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - **React 18**
 - **TypeScript**
@@ -63,7 +63,7 @@ All tests for the components and API mocks are handled through [Jest](https://je
 
 ---
 
-## 🏗️ Core Components
+## Components
 
 | Component          | Responsibility                                                                                 |
 | ------------------ | ---------------------------------------------------------------------------------------------- |
@@ -75,7 +75,7 @@ All tests for the components and API mocks are handled through [Jest](https://je
 
 ---
 
-## ✅ Testing Setup
+## Testing Setup
 
 - All main components are unit tested.
 - Axios is **mocked** during testing.
@@ -92,12 +92,15 @@ All tests for the components and API mocks are handled through [Jest](https://je
 
 ##  How To Run Tests
 
-```bash
 npm test
 
 ---
 
-## ➡️ How to extend with new data sources?
+
+
+## How to extend with new data sources?
+
+```bash
 
 If you want to add new types of prefill sources (for example, an "External API" or "System Variables"), you should:
 
@@ -141,7 +144,7 @@ const renderSource = (source: PrefillSource) => {
   return "Unknown Source";
 };
 
-## What patterns should you pay attention to?
+ What patterns should you pay attention to?
 
 Strong Typing:
 Always modify types explicitly through types.ts. No loose types.
